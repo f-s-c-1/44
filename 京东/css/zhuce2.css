@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    color: #333;
+    background-color: #f7f7f7;
+    text-align: center;
+    font-size: .14rem;
+}
+input{
+    font-size: .14rem;
+    outline: 0;
+}
+header{
+    height: .45rem;
+    line-height: .45rem;
+    background: #f9f9f9;
+    color: #616161;
+    font-size: .17rem;
+    border-bottom: 1px solid #bbb;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+.fanhui{
+    width: .22rem;
+    height: .22rem;
+    overflow: hidden;
+    position: absolute;
+    background-image:url(https://plogin.m.jd.com/jd-mlogin/1.1.4/images/a3a248f4a949c14c2cb4fb9ac656f1f5.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    top: .11rem;
+    left: .11rem;
+    background-position: 0 -.63rem;
+}
+.page{
+    width: 90%;
+    left: 0; 
+    padding: .15rem;
+    overflow: auto;
+}
+.cont{
+    max-width: 7.5rem;
+    margin: 0 auto;
+}
+.xiayibu{
+    opacity: .3;
+    height: .45rem;
+    line-height: .46rem;
+    border-radius: 4px;
+    border: 0;
+    font-size: .16rem;
+    background-color: #e93b3d;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    color: white;
+}
+.input{ 
+    position: relative;
+    width: 100%;
+    height: .45rem;
+    line-height: .45rem;
+    overflow: hidden;
+    padding: 0 .05rem;
+    margin-top: .15rem;
+    background: white;
+    
+}
+.telCode {
+    width: 100%;
+    padding-right: .32rem;
+    padding-left: 0;
+    border-radius: 0;
+    border: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: PingFang-SC-Regular;
+    color: #848689;
+}
+.mesg-code {
+    width: 1.1rem;
+    border-left: 1px solid #d7d7d7;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    padding: 0;
+    position: absolute;
+    height: .23rem;
+    right: 0;
+    top: .125rem;
+    background-color: #fff;
+    font-size: .14rem;
+    outline: 0;
+}
+.toast-ui{
+    top: 350px;
+    padding: .1rem .15rem;
+    color: #fff;
+    z-index: 200;
+    background: 0;
+    display: none;
+}
+.toast{
+    max-width: 80%;
+    /* display: none; */
+    background: #2b2b2b;
+    padding: .1rem .15rem;
+    display: inline-table;
+    text-align: left;
+    border-radius: 3px;
+}
+
+.question-box {
+    margin-top: .1rem;
+    text-align: left;
+    color: #848689;
+}
+
+/*  */
+.tips-wrap {
+    margin-top: .2rem;
+    text-align: left;
+}
+.question-box {
+    margin-top: .2rem;
+    text-align: left;
+    text-align: left;
+    color: #848689;
+}
+.question-box a{
+    padding-left: 0.05rem;
+    color: #616161;
+    text-decoration: underline;
+}
+
+
+
+

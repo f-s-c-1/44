@@ -1,0 +1,655 @@
+{
+    "jdms": {
+        "one": {
+            "imgSrc": "https://img14.360buyimg.com/n1/s150x150_jfs/t1/69741/20/2490/62512/5d0c866fEb566c085/7705ff39b1034182.jpg.dpg",
+            "newPrice": 98,
+            "oldPrice": 300
+        },
+        "two": {
+            "imgSrc": "https://img14.360buyimg.com/n1/s150x150_jfs/t1/44006/39/7403/201140/5d10641eEe39bf168/ce1289dad2f2a0de.jpg.dpg",
+            "newPrice": 3134,
+            "oldPrice": 8999
+        },
+        "three": {
+            "imgSrc": "http://img14.360buyimg.com/n1/s150x150_jfs/t1/75929/37/3422/132540/5d197d06E31b276f1/52bf3a6da643d64d.jpg.dpg",
+            "newPrice": 129.9,
+            "oldPrice": 159.9
+        },
+        "fore": {
+            "imgSrc": "https://img14.360buyimg.com/n1/s150x150_jfs/t1/37695/8/3173/377061/5cb96ac5Ef37aa038/da8cca8cf1f8a96d.jpg.dpg",
+            "newPrice": 1699,
+            "oldPrice": 2299
+        },
+        "five": {
+            "imgSrc": "http://img14.360buyimg.com/n1/s150x150_jfs/t1/55511/36/3943/123262/5d1b0f27E0a0ae6ce/a42941ebe611d7dd.png.webp",
+            "newPrice": 54.8,
+            "oldPrice": 109.5
+        },
+        "six": {
+            "imgSrc": "https://img14.360buyimg.com/n1/s150x150_jfs/t4285/318/443221820/183144/38b9a2d4/58b514f9N3f8d45c4.jpg.dpg",
+            "newPrice": 698,
+            "oldPrice": 795
+        },
+        "seven": {
+            "imgSrc": "http://img14.360buyimg.com/n1/s150x150_jfs/t1/52700/37/3499/28961/5d148ddeEeaf3e4af/378d2aa54c7d8a91.jpg.dpg",
+            "newPrice": 138,
+            "oldPrice": 158
+        },
+        "eight": {
+            "imgSrc": "http://img14.360buyimg.com/n1/s150x150_jfs/t1/66859/2/2348/262327/5d09e946E18cc8591/d61bf63c73757613.jpg.dpg",
+            "newPrice": 199,
+            "oldPrice": 269
+        },
+        "nine": {
+            "imgSrc": "https://img14.360buyimg.com/n1/s150x150_jfs/t1/44276/24/8033/128656/5d19b4c1Ec96ba64a/cb640542e1a50184.jpg.dpg",
+            "newPrice": 39,
+            "oldPrice": 69
+        }
+    },
+    "djxy": {
+        "one": {
+            "imgSrc": "http://m.360buyimg.com/mobilecms/s150x150_jfs/t1/46581/33/4055/116750/5d1b8e5fEfd91868a/a9bab6c6f5baeaaf.jpg!q70.jpg.dpg",
+            "title": "通勤神器",
+            "font": "电动车出行"
+        },
+        "two": {
+            "imgSrc": "http://m.360buyimg.com/mobilecms/s150x150_jfs/t1/57295/20/660/164691/5ce512f2E8c93c8d4/eac3bd6f5d7b7661.jpg!q70.jpg.dpg",
+            "title": "爱美天性",
+            "font": "点我"
+        },
+        "three": {
+            "imgSrc": "https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/53554/27/4045/203479/5d1d58c8E20e23d24/12bae5b519c813b5.jpg!q70.jpg.dpg",
+            "title": "防护能手",
+            "font": "防护小超人"
+        },
+        "fore": {
+            "imgSrc": "https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/45252/4/3964/96142/5d1af324E55e0d7c1/3f15d1ad4be828ff.jpg!q70.jpg.dpg",
+            "title": "二手寻宝",
+            "font": "跳蚤市场"
+        }
+    },
+    "mrg": {
+        "one": {
+            "imgSrc": "https://m.360buyimg.com/n1/s150x150_jfs/t29566/227/1464891645/10350/a5b133e2/5ce20cdcNd9cdd972.jpg!q70.jpg.dpg",
+            "title": "免息星球",
+            "font": "白条免息购"
+        },
+        "two": {
+            "imgSrc": "http://m.360buyimg.com/n1/s150x150_jfs/t23101/126/2396175014/290024/953e4cea/5b7e65c9N4b637bb9.png!q70.jpg.dpg",
+            "title": "闪购",
+            "font": "品牌特卖"
+        },
+        "three": {
+            "imgSrc": "http://m.360buyimg.com/n1/s150x150_jfs/t1/47258/7/199/209018/5cd38e13Eb3bd6a02/e4109293cfdbc46e.jpg!q70.jpg.dpg",
+            "title": "品牌秒杀",
+            "font": "低价抢大牌"
+        },
+        "fore": {
+            "imgSrc": "http://m.360buyimg.com/mobilecms/s150x150_jfs/t1/54359/39/1233/68579/5cef9616E0d3ad2ba/e6f1e73fd970b661.png!q70.jpg.dpg",
+            "title": "京东直播",
+            "font": "边看边买"
+        },
+        "five": {
+            "imgSrc": "http://m.360buyimg.com/mobilecms/s150x150_jfs/t10675/97/2254709219/9497/6ba245fd/59f14a23N0594b89c.jpg!q70.jpg.dpg",
+            "title": "排行榜",
+            "font": "专属购物指南"
+        },
+        "six": {
+            "imgSrc": "https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/34938/26/11155/70774/5cefa0c6E5a90edb2/47b686712510d44e.png!q70.jpg.dpg",
+            "title": "拍拍好物",
+            "font": "二手优品"
+        },
+        "seven": {
+            "imgSrc": "https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/25511/17/11799/79275/5c91a3fbE3575290e/ffcd261423c0b5c8.jpg!q70.jpg.dpg",
+            "title": "新品首发",
+            "font": "vivo X27"
+        },
+        "eight": {
+            "imgSrc": "https://m.360buyimg.com/mobilecms/s150x150_jfs/t1/50174/30/1230/9784/5cef98bfE318f8d24/4720dc4079dd568b.jpg!q70.jpg.dpg",
+            "title": "发现好货",
+            "font": "教你买买买"
+        }
+    },
+    "main": {
+        "one": {
+            "vipImg": "http://img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png",
+            "imgArr": [
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/66057/26/201/298491/5ce512f0Ef23a4d57/54fe70d8d110e056.jpg!q70.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t28756/169/1564217669/306287/f1fa16a6/5ce512f0N6d84328a.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/38724/5/7161/105688/5ce512f0E1e3ebda1/d15db43423fd1eab.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/46165/19/636/245348/5ce512f0E75d0edca/36843ba8f5a99e19.jpg!q70.dpg.webp"
+            ],
+            "colorArr": [
+                "白色",
+                "灰色",
+                "粉色",
+                "杏色"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L"
+            ],
+            "title": "秃秀 半身裙2019夏季新款韩版星空网纱渐变裙中长款半身裙",
+            "price": 106.12,
+            "sale": 123,
+            "tedain": "拼购"
+        },
+        "two": {
+            "vipImg": "",
+            "imgArr": [
+                "http://m.360buyimg.com/mobilecms/s750x750_jfs/t1/28971/6/8410/240526/5c763a8dE6f97e0ab/8c3f71227396dbea.jpg!q80.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t1/31254/22/3603/489400/5c763a9fE87fa7995/d0875db52333eac7.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/17593/37/8428/568676/5c763a95E6ddceb59/f3160db7ab644811.jpg!q70.dpg.webp"
+            ],
+            "colorArr": [
+                "粉色",
+                "黑色",
+                "灰蓝色",
+                "白色"
+            ],
+            "size": [
+                "均码"
+            ],
+            "title": "云步香阶 2019新款显瘦A字仙女网纱鱼尾裙大摆裙长纱裙半身裙蓬蓬裙子",
+            "price": 59.00,
+            "sale": 1134,
+            "tedain": "新品"
+        },
+        "three": {
+            "vipImg": "http://img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png",
+            "imgArr": [
+                "https://m.360buyimg.com/mobilecms/s750x750_jfs/t20368/59/2589278009/253101/93e142f2/5b5da31cN44e26273.jpg!q80.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t20581/123/2582712787/195272/146e958c/5b5da31aN24d06feb.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t23074/137/1356634179/303720/eded1539/5b5da31aN9bd2318b.jpg!q70.dpg.webp"
+            ],
+            "size": [
+                "均码"
+            ],
+            "colorArr": [
+                "黑色",
+                "绿色"
+            ],
+            "title": "2019春秋新款韩版chic宽松百搭鬼马少女工装纯色背带长裤学生女装",
+            "price": 47.00,
+            "sale": 124
+        },
+        "fore": {
+            "vipImg": "",
+            "imgArr": [
+                "http://m.360buyimg.com/mobilecms/s750x750_jfs/t17281/6/1281462239/205382/124837a/5ac37e9fN8307f649.jpg!q80.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t17929/285/1199292276/332711/9ebb0ee7/5ac37e9fNe9e7090e.jpg!q70.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t18226/116/1315417964/130084/b9005ad3/5ac37e9fNf5646103.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t18433/130/1290787262/178254/52309bd2/5ac37e9dNb995f116.jpg!q70.dpg.webp"
+            ],
+            "colorArr": [
+                "9002白边",
+                " 9132银边"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL",
+                "3XL"
+            ],
+            "title": "娇茹妮 学生运动裤女2018春秋新款韩版bf风原宿宽松哈伦裤休闲裤九分卫裤",
+            "price": 38.00,
+            "sale": 124
+        },
+        "five": {
+            "vipImg": "",
+            "imgArr": [
+                "http://m.360buyimg.com/mobilecms/s750x750_jfs/t23083/274/2285137277/243594/d110744/5b7b613dN5320cdf3.jpg!q80.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t26002/80/779577575/210922/ec45a33e/5b7b613dN064a2d6a.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t23752/280/2291885419/297436/2591df13/5b7b613dNe6792a3e.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t22579/300/2271055565/238098/1c402f8/5b7b613dN3e187046.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t23752/282/2285464105/230946/a612591/5b7b613fN31636c0c.jpg!q70.dpg.webp"
+            ],
+            "colorArr": [
+                "卡其色",
+                "军绿色",
+                "黑色"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "title": "2019夏季韩版chic港风工装裤子女宽松直筒显瘦九分学生百搭休闲阔腿裤春夏款",
+            "price": 38.00,
+            "sale": 124,
+            "tedain": "新品"
+        },
+        "six": {
+            "vipImg": "",
+            "imgArr": [
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t28912/23/353358363/237281/35fc83cc/5bf02e0cNf32d1407.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t30679/50/353604736/251465/5cb22089/5bf02e0cNddc483fd.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t28675/51/362227370/267132/e9c0c6dc/5bf02e0cN923d10e2.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t30679/50/353604736/251465/5cb22089/5bf02e0cNddc483fd.jpg!q70.dpg.webp"
+            ],
+            "colorArr": [
+                "黑色",
+                "粉红色",
+                "杏色",
+                "薄款灰色",
+                "薄款杏色",
+                "薄款粉色"
+            ],
+            "size": [
+                "均码"
+            ],
+            "title": "2019夏季韩版chic港风工装裤子女宽松直筒显瘦九分学生百搭休闲阔腿裤春夏款",
+            "price": 69.00,
+            "sale": 124
+        },
+        "seven": {
+            "vipImg": "",
+            "imgArr": [
+                "http://img14.360buyimg.com/mobilecms/s372x372_jfs/t1/6863/26/1845/372558/5bce7effEb78881f0/b397ed7d8d291382.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/5347/28/11158/359849/5bce7effE0a80dd2f/8fb7a72f7842030a.jpg!q70.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t1/1050/10/11276/317157/5bce7effEd611673b/95843049ce2deaa2.jpg!q70.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t1/6800/24/1855/169106/5bce7effE6556fe00/75861561b51cc3bc.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t1/9836/4/1463/265790/5bce7effEd0930e61/60d5a6437d07693f.jpg!q70.dpg.webp"
+            ],
+            "colorArr": [
+                "白色樱花A款",
+                "白色樱花B款",
+                "粉色樱花A款",
+                "巴洛克A款",
+                "巴洛克B款",
+                "水立方A款",
+                "泡泡A款",
+                "泡泡B款",
+                "泡泡C款"
+            ],
+            "size": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "2XL"
+            ],
+            "title": "浴室置物架卫生间三角置物架 收纳架 洗濑台置物架转角架",
+            "price": 89.00,
+            "sale": 1280,
+            "tedain": "爆款"
+        },
+        "eight": {
+            "vipImg": "",
+            "imgArr": [
+                "http://m.360buyimg.com/mobilecms/s750x750_jfs/t30511/82/1536112835/119025/5270bf6c/5ce27776Nfe064354.jpg!q80.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t29179/200/1464395720/59290/272b99aa/5ce24dc8Nc32d786c.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t30214/52/1481983637/127549/f5cf391/5ce27776N1c73d24e.jpg!q70.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t29248/103/1505505747/92155/82c07bff/5ce27776Nbefdb511.jpg!q70.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t29260/100/1527083336/178551/daaa97a/5ce27777N65d18963.jpg!q70.dpg.webp"
+            ],
+            "guihe": [
+                "5只套装"
+            ],
+            "title": "HOLD LIVE慕斯绒情口红套装礼盒 哑光雾面196烂番茄316泫雅红棕牛血色 5只套装",
+            "price": 67.00,
+            "sale": 1280,
+            "tedain": "口红"
+        },
+        "nine": {
+            "vipImg": "",
+            "imgArr": [
+                "https://m.360buyimg.com/mobilecms/s750x750_jfs/t6964/66/1333556320/155984/25f801bc/598032bbNfc4f7a0a.jpg!q80.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t18193/317/1948105546/116554/908c7043/5adef5a3N258648bd.jpg!q70.dpg.webp"
+            ],
+            "colorArr": [
+                "正红色1#",
+                "雅紫色7#",
+                "正橘色13#",
+                "嫣粉色17#",
+                "玫红色19#",
+                "珊瑚色36#",
+                "珊瑚橙51#",
+                "星星色(千颂伊同款) 52#",
+                "裸唇色57#",
+                "新色72#",
+                "新色73#"
+            ],
+            "title": "圣罗兰（YSL）纯口红13#（正橘色）",
+            "price": 320.00,
+            "sale": 120
+        },
+        "ten": {
+            "vipImg": "http://img11.360buyimg.com/jdphoto/s48x28_jfs/t18820/32/891260489/1085/d4b6cf2c/5aadf9dbN7043e607.png",
+            "imgArr": [
+                "https://m.360buyimg.com/mobilecms/s750x750_jfs/t29389/223/1380497409/34007/9f0b7e40/5cdecad2N21d53741.jpg!q80.dpg.webp",
+                "https://m.360buyimg.com/mobilecms/s843x843_jfs/t29899/261/1443531115/44329/7a87b56a/5cdecad2N327034b0.jpg!q70.dpg.webp",
+                "http://m.360buyimg.com/mobilecms/s843x843_jfs/t10447/165/2971186548/51074/8d6e63b0/5cdecad2Nfc6de3a9.jpg!q70.dpg.webp"
+            ],
+            "colorArr": [
+                "红管 405# 番茄红【李佳琪推荐omg】",
+                "红管 504# 玫红色",
+                "黑管 402# 海报色橘调",
+                "黑管 500# 带闪锦鲤色",
+                "黑管 505# 梅子色",
+                "红管 201# 姨妈红",
+                "红管 509# 圣诞限量",
+                "红管 201# 姨妈红"
+            ],
+            "title": "【京东送达，专柜正品】阿玛尼(Armani) 口红女士唇釉 生日礼物/表白礼物 【李佳琪推荐omg】",
+            "price": 243.00,
+            "sale": 120
+        }
+    },
+    "fenlei": {
+        "0": {
+            "left": "热门推荐",
+            "right": {
+                "热门分类": {
+                    "手机": "https://img14.360buyimg.com/focus/s140x140_jfs/t27136/183/1628977274/31007/a6f7ed55/5be6ebd8Nb07ef492.png",
+                    "耳机": "http://img30.360buyimg.com/focus/s140x140_jfs/t1/21233/40/7634/13890/5c6d039bE8a65d667/aef9581abcc85725.png",
+                    "华为": "https://img30.360buyimg.com/focus/s140x140_jfs/t1/1446/14/631/8500/5b9237e5E0d1f9e16/b1a627b92323b5ed.png",
+                    "电磁炉": "https://img11.360buyimg.com/focus/s140x140_jfs/t1/26217/19/7605/22816/5c6d03a3E4f263c9d/d6fc27b51078358c.png",
+                    "三只松鼠": "http://img11.360buyimg.com/focus/s140x140_jfs/t1/30718/32/2643/9923/5c6d03ecEabd2d664/aaee556800519e1f.png",
+                    "保温杯": "http://img11.360buyimg.com/focus/s140x140_jfs/t1/11731/9/10730/9518/5c822298Eb50b3275/33f88663e1c0284e.png",
+                    "卫生巾": "http://img20.360buyimg.com/focus/s140x140_jfs/t1/19562/14/9878/32183/5c8225f6E7c332db7/c886e52dc05b9ae4.png",
+                    "口红": "https://img30.360buyimg.com/focus/s140x140_jfs/t1/19730/14/9859/10199/5c8225eeE5e925911/054ccd7992f86199.png",
+                    "微波炉": "http://img10.360buyimg.com/focus/s140x140_jfs/t1/21353/14/7486/17896/5c6d03c0Eb9c58d49/9210736682f59e39.png",
+                    "路由器": "http://img14.360buyimg.com/focus/s140x140_jfs/t27400/283/1600620667/15106/a935e7bd/5be6f2e1Nfa8d9d6e.png",
+                    "电饭煲": "https://img20.360buyimg.com/focus/s140x140_jfs/t1/29265/29/7571/29171/5c6d0389E251fe5f2/987962eb75bfe813.png",
+                    "吹风机": "http://img12.360buyimg.com/focus/s140x140_jfs/t1/25144/37/2370/7617/5c1cae45Ea0ec5a85/f7ba433b5d1e072f.png"
+                },
+                "家电热搜": {
+                    "冰箱": "http://img20.360buyimg.com/focus/s140x140_jfs/t21115/83/225125274/13856/5473fb3f/5b0567c1N59d53b27.png",
+                    "洗衣机": "http://img14.360buyimg.com/focus/s140x140_jfs/t21664/15/237213959/24996/a3c6c7d6/5b0567c7N9cc1c355.png",
+                    "电视": "https://img12.360buyimg.com/focus/s140x140_jfs/t18106/218/2672347202/29951/3618e960/5b0567cdN275fbcdd.png"
+                }
+            }
+        },
+        "1": {
+            "left": "手机数码",
+            "right": {
+                "热门品牌": {
+                    "小米":"https://img30.360buyimg.com/focus/s140x140_jfs/t13411/188/926813276/3945/a4f47292/5a1692eeN105a64b4.png",
+                    "华为":"https://img14.360buyimg.com/focus/s140x140_jfs/t11929/135/2372293765/1396/e103ec31/5a1692e2Nbea6e136.jpg",
+                    "荣耀":"https://img10.360buyimg.com/focus/s140x140_jfs/t12178/348/911080073/4732/db0ad9c7/5a1692e2N6df7c609.jpg",
+                    "iPhone":"https://img20.360buyimg.com/focus/s140x140_jfs/t13759/194/897734755/2493/1305d4c4/5a1692ebN8ae73077.jpg",
+                    "vivo":"http://img11.360buyimg.com/focus/s140x140_jfs/t11014/359/2341377211/2777/1755c29c/5a169244Nff0179e0.png",
+                    "oppo":"http://img13.360buyimg.com/focus/s140x140_jfs/t13036/273/932026474/2570/a3517c7d/5a169254N4bbbd9fb.png",
+                    "魅族":"http://img20.360buyimg.com/focus/s140x140_jfs/t12820/326/909017718/7138/68cde747/5a169243N40eca33c.jpg",
+                    "三星":"https://img13.360buyimg.com/focus/s140x140_jfs/t11509/131/2348573811/3425/4f20fe6/5a16925aN8a6dfd03.png",
+                    "锤子":"https://img20.360buyimg.com/focus/s140x140_jfs/t19387/332/664528115/8176/5eabe8cb/5a9fa5e0N6754e52a.jpg",
+                    "努比亚":"https://img12.360buyimg.com/focus/s140x140_jfs/t15085/289/2395028996/2546/1e7e1f7b/5a9fa5e7Nc5cc0f6b.jpg",
+                    "360手机":"http://img20.360buyimg.com/focus/s140x140_jfs/t13096/309/908035611/5138/5558f001/5a16924fNeac7677e.jpg",
+                    "一加":"http://img13.360buyimg.com/focus/s140x140_jfs/t11209/71/2351231464/4158/fc0c415c/5a16923fNfc14307e.jpg"
+                },
+                "手机通讯": {
+                    "老人机":"https://img12.360buyimg.com/focus/s140x140_jfs/t11461/339/2354953633/8254/8c8c50d3/5a169217N5d1b842e.jpg",
+                    "手机":"http://img10.360buyimg.com/focus/s140x140_jfs/t11503/241/2246064496/4783/cea2850e/5a169216N0701c7f1.jpg",
+                    "全面屏手机":"https://img30.360buyimg.com/focus/s140x140_jfs/t18955/187/1309277884/11517/fe100782/5ac48d27N3f5bb821.jpg",
+                    "游戏手机":"http://img11.360buyimg.com/focus/s140x140_jfs/t11470/45/2362968077/2689/fb36d9a0/5a169238Nc8f0882b.jpg",
+                    "拍照手机":"http://img20.360buyimg.com/focus/s140x140_jfs/t12022/66/917351804/2257/7ddc58e5/5a169232Ndf76f53c.jpg",
+                    "对讲机":"https://img30.360buyimg.com/focus/s140x140_jfs/t13255/192/958298391/1687/5c7e3c53/5a169204Nd4aa27bb.jpg",
+                    "京东回收":"http://img30.360buyimg.com/focus/s140x140_jfs/t13246/188/925975876/8794/686dbb9c/5a1691e0N62f626e3.jpg",
+                    "女性手机":"http://img12.360buyimg.com/focus/s140x140_jfs/t15790/6/2311892256/2742/5ed77924/5a9fa728Nbff29ad2.jpg"
+                    
+                },
+                "运行商": {
+                    "合约机":"https://img20.360buyimg.com/focus/s140x140_jfs/t13309/121/902275259/3700/e9f22529/5a168e83Nb1a35aac.png",
+                    "选卡号":"http://img10.360buyimg.com/focus/s140x140_jfs/t11515/106/2342900928/7913/5a606e3f/5a168e7eNdd5d0121.png",
+                    "办套餐":"http://img20.360buyimg.com/focus/s140x140_jfs/t14146/201/916948302/5272/8ae80f8e/5a168e78N78b24a8e.jpg"
+                },
+                "手机配件":{
+                    "数据线":"https://img12.360buyimg.com/focus/s140x140_jfs/t18055/312/1342501458/9462/4699ed8a/5ac48672N11cf61fe.jpg",
+                    "充电宝":"https://img30.360buyimg.com/focus/s140x140_jfs/t19537/23/1276961949/9676/f4b5be0d/5ac48791Nb224f939.jpg",
+                    "手机贴膜":"https://img11.360buyimg.com/focus/s140x140_jfs/t17548/288/1331085893/6458/52545456/5ac486c6N0c8a93dc.jpg"
+                },
+                "摄影摄像":{
+                    "拍立得":"http://img30.360buyimg.com/focus/s140x140_jfs/t12103/88/911420740/3644/5d80c2d9/5a1679e9Nc3e2dd28.jpg",
+                    "运动相机":"http://img30.360buyimg.com/focus/s140x140_jfs/t13471/257/894155873/9479/7f38d7e/5a1679d5Nfdcfe9bb.jpg"
+                },
+                "影音娱乐":{
+                    "智能音响":"http://img11.360buyimg.com/focus/s140x140_jfs/t12931/44/891657494/2295/7609fca6/5a167864Ne52020f2.jpg"
+                }
+            }
+        },
+        "2": {
+            "left": "家用电器",
+            "right": {
+                "厨房小电": {
+                    "电热壶":"http://img30.360buyimg.com/focus/s140x140_jfs/t12559/262/969294499/3436/8c0ce9c9/5a17f1d2N8078d5e6.jpg"
+                   
+                },
+                "个性健康": {
+                   "剃须刀":"https://img14.360buyimg.com/focus/s140x140_jfs/t11539/356/2296587411/5881/9d96908e/5a17c221Nf85c1934.jpg"
+                },
+                "冰箱": {
+                   "双开门":"http://img10.360buyimg.com/focus/s140x140_jfs/t14047/217/992011228/3503/5b1fa21a/5a17f699N94996c85.jpg"
+                },
+                "洗衣机": {
+                   "波轮洗衣机":"https://img13.360buyimg.com/focus/s140x140_jfs/t7927/184/4204864436/1170/5c6edbfd/5a17f6e7Nd3e178e9.jpg"
+                },
+                "电视": {
+                    "超薄电视":"https://img13.360buyimg.com/focus/s140x140_jfs/t13504/319/968427925/3517/a85d3fa1/5a17f352N64668f4c.jpg"
+                }
+                
+            }
+        },
+        "3": {
+            "left": "电脑办公",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "4": {
+            "left": "计生情趣",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "5": {
+            "left": "美妆护肤",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "6": {
+            "left": "个性清洁",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "7": {
+            "left": "汽车生活",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "8": {
+            "left": "京东超市",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "9": {
+            "left": "男装",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "10": {
+            "left": "男鞋",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "11": {
+            "left": "女装",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "12": {
+            "left": "女鞋",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "13": {
+            "left": "母婴童装",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "14": {
+            "left": "图书音像",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "15": {
+            "left": "运动户外",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "16": {
+            "left": "内衣配饰",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "17": {
+            "left": "食品生鲜",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "18": {
+            "left": "酒水饮料",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "19": {
+            "left": "家具家装",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "20": {
+            "left": "家居厨具",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "21": {
+            "left": "箱包手袋",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "22": {
+            "left": "钟表珠宝",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "23": {
+            "left": "玩具乐器",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "24": {
+            "left": "医药保健",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "25": {
+            "left": "宠物生活",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "26": {
+            "left": "礼品鲜花",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "27": {
+            "left": "农资绿植",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "28": {
+            "left": "生活旅行",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "29": {
+            "left": "奢侈品",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "30": {
+            "left": "海囤全球",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "31": {
+            "left": "艺术邮币",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "32": {
+            "left": "二手商品",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "33": {
+            "left": "特产馆",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "34": {
+            "left": "京东金融",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "35": {
+            "left": "国际名牌",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "36": {
+            "left": "拍卖",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "37": {
+            "left": "房产",
+            "right": {
+                "暂无数据":""
+            }
+        },
+        "38": {
+            "left": "工业品",
+            "right": {
+                "暂无数据":""
+            }
+        }
+    }
+}

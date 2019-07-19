@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .footer{
+            width: 100%;
+            height: 0.5rem;
+        }
+        .footer>li{
+            float: left;
+            width: 20%;
+            position: relative;
+            list-style: none;
+            height: 100%;
+        }
+        .footer>li>img{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -0.3rem;
+            margin-top: -0.23rem;
+            width: 0.6rem;
+            height: 0.46rem;
+        }
+        .fenlei-img2{
+            display: none;
+        }
+        .index-img2{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <li class="index">
+            <img src="https://m.360buyimg.com/mobilecms/jfs/t18526/211/696109898/3876/a61be82c/5aa10cd2N1318ac50.png" alt="" class="index-img1">
+            <img src="https://m.360buyimg.com/mobilecms/jfs/t15145/137/2502885754/3106/de5e0b14/5aa10cd2N46f18ce6.png" alt=""class="index-img2">
+        </li>
+        <li class="fenlei">
+            <img src="https://m.360buyimg.com/mobilecms/jfs/t19183/49/696491919/3763/dec8cceb/5aa10cdbNa9cd0320.png" alt="" class="fenlei-img1">
+            <img src="https://img11.360buyimg.com/jdphoto/s130x100_jfs/t1/33669/19/3432/3731/5cb48c9cEb2f5593b/060ffe532d67562b.png" alt="" class="fenlei-img2">
+        </li>
+        <li>
+            <img src="https://img11.360buyimg.com/jdphoto/s130x100_jfs/t1/75691/7/2686/3970/5d106e75Ee420adf7/cb4579470ee8ca22.png" alt="">
+        </li>
+        <li class="gouwuche">
+            <img src="https://m.360buyimg.com/mobilecms/jfs/t18583/69/717127328/4407/5e47882b/5aa10ceaN649eec12.png" alt="">
+        </li>
+        <li class="denglu">
+            <img src="https://m.360buyimg.com/mobilecms/jfs/t17782/11/2358895717/4684/ad19de7f/5af43af1N04ef5a16.png" alt="">
+        </li>
+    </div>
+</body>
+<script>
+if(window.location.href.indexOf('index')>0){
+    $('.index-img1').hide()
+    $('.index-img2').show()
+}else{
+    $('.index-img1').show()
+    $('.index-img2').hide()
+}
+if(window.location.href.indexOf('fenlei')>0){
+    $('.fenlei-img1').hide()
+    $('.fenlei-img2').show()
+}else{
+    $('.fenlei-img1').show()
+    $('.fenlei-img2').hide()
+}
+$('.fenlei').click(function(){
+    window.open('./fenlei.html','_self')
+})
+$('.index').click(function(){
+    window.open('./index.html','_self')
+})
+$('.gouwuche').click(function(){
+    window.open('./gouwuche.html','_self')
+})
+$('.denglu').click(function(){
+    window.open('./denglu.html','_self')
+})
+</script>
+</html>

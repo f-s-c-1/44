@@ -1,0 +1,175 @@
+body{
+    font-family: PingFangSC-Regular,Helvetica,Droid Sans,Arial,sans-serif;
+}
+.head{
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #e5e5e5;
+    height: 0.45rem;
+    position: sticky;
+}
+.head-left{
+    float: left;
+    margin:  0.14rem 0 0 0.15rem;
+}
+.head-min{
+    float: right;
+    margin-right: 0.07rem;
+    margin-top: 0.07rem;
+    position: relative;
+    width: 2.73rem;
+    background: rgb(247, 247, 247);
+    height: 0.3rem;
+    box-sizing: border-box;
+    border-radius: 0.15rem;
+}
+.head-min-lo{
+    margin: 0.08rem 0px 0 0.05rem;
+    width: 0.4rem;
+    height: 15px;
+    float: left;
+    text-align: center;
+    border-right: 1px solid lightgray;
+}
+.jdsprite{
+    background-image: url(https://st.360buyimg.com/so/images/search/jd-sprites.png?__inline) ;
+    background-repeat: no-repeat;
+    float: left;
+}
+.head-min-loo{
+    width: 18px;
+    height: 15px;
+    background-position: -80px 0;
+    background-size: 200px;
+    margin: 8px 0 0 10px;
+}
+.head-min-font{
+    padding-left: 5px;
+    float: left;
+    width: 0.95rem;
+    height: 0.3rem;
+}
+.head-min-font>input{
+    border:none;
+    outline: none;
+    height: 0.3rem;
+    line-height: 0.44rem;
+    font-size: 12px;
+    color: #232326;
+    background: rgb(247, 247, 247);
+}
+.head-deng{
+    float: right;
+    width: 0.4rem;
+    height: 0.44rem;
+    color: white;
+    text-align: center;
+    line-height: 0.44rem;
+}
+.head-deng>img{
+    width: 0.2rem;
+    height: 0.05rem;
+}
+.main{
+    height: 5.74rem;
+    width: 100%;
+    overflow: hidden;
+}
+.main-left{
+    float: left;
+    width: 0.86rem;
+    background: rgb(247, 247, 247);
+    height: 5.74rem;
+    overflow-y: auto
+}
+.main-left>ul>li{
+    color: #333;
+    font-size: 0.14rem;
+    text-align: center;
+    width: 100%;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 0 0.02rem; 
+}
+.main-left>ul>.houlai{
+    background: white;
+    color: red;
+}
+.main-left{
+    scroll-behavior: smooth;
+}
+.main-left::-webkit-scrollbar-thumb{
+    width: 0;
+}
+.main-left::-webkit-scrollbar{
+    width: 0;
+}
+.main-left::-webkit-scrollbar-track{
+    width: 0;
+}
+#footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    background: white;
+}
+.wrap-right{
+    float: right;
+    margin: 0.19rem 0.07rem 0;
+    font-size: 0.12rem;
+    width: 2.7rem;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    height: 5.6rem;
+}
+.wrap-right::-webkit-scrollbar{
+    width: 0;
+}
+.wrap-right::-webkit-scrollbar-thumb{
+    width: 0;
+}
+.wrap-right::-webkit-scrollbar-track{
+    width: 0;
+}
+.main-right{
+    position: relative;
+}
+.wrap-main>h4 img{
+    width: 0.12rem;
+    height: 0.12rem;
+    vertical-align: top;
+}
+.wrap-main .one-right{
+    float: right;
+    font-size: 0.12rem;
+    font-weight: 400;
+    color:#848689;
+}
+.wrap-main>h4{
+    font-size: 0.14rem;
+    font-weight: 700;
+    margin-bottom: 0.07rem;
+}
+.wrap-main>ul{
+    padding: 0.07rem 0.10rem 0;
+}
+.wrap-main>ul>li{
+    width: 32.8%;
+    float: left;
+    text-align: center;
+}
+.wrap-main>ul>li>img{
+    width: 0.7rem;
+    height: 0.7rem;
+}
+.wrap-main>ul>li>span{
+    color: #333;
+    display: block;
+    margin-top: 0.02rem;
+    height: 0.35rem;
+}

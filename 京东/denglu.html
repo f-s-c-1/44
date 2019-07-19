@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/denglu.css">
+</head>
+
+<body>
+    <div id="header">
+        <span class="icon icon-goback"></span>
+        <span class="txt-header">京东登录</span>
+    </div>
+    <div class="page">
+        <div class="page-con">
+            <!-- 账号密码登录 -->
+            <div class="login">
+                <div class="input-content">
+                    <input type="text" id="userName" placeholder="用户名/邮箱/已验证手机">
+                </div>
+                <div class="input-content">
+                    <input type="text" id="passWord" placeholder="请输入密码">
+                    <div class="checkbtn"></div>
+                    <button class="J_ping findpwd">忘记密码</button>
+                </div>
+            </div>
+            <!-- 短信验证登录 -->
+            <div class="DXlogin" style="display: none;">
+                <div class="sms-input-box">
+                    <div class="input-container">
+                        <label class="area-box J_ping">
+                            <span class="area_code">+86</span>
+                            <i class="area_icon"></i>
+                        </label>
+                        <input type="tel" id="telphone" class="acc-input telphone sms-txt-input J_ping"
+                            placeholder="请输入手机号" report-eventid="MLoginRegister_SMSPhoneInput">
+                        <i class="icon icon-clear"></i>
+                    </div>
+                    <button class="mesg-code mesg-disable J_ping">获取验证码</button>
+                    <div class="input-container">
+                        <input id="telCode" class="acc-input telCode sms-txt-input J_ping" type="tel"
+                            placeholder="请输入收到的验证码">
+                        <i class="icon icon-clear"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="notice">&nbsp;</div>
+            <a href="javascript:" id="loginBtn" class="btn J_ping">登 录</a>
+            <a href="javascript:" id="loginOneStep" class="btn btn-onestep J_ping" style="display:block;">一键登录</a>
+            <div class="quick-nav clearfix">
+                <a href="javascript:" class="J_ping planBLogin" style="display:block">
+                    <span class="txt-planBLogin">短信验证码登录</span>
+                </a>
+                <a href="javascript:" class="J_ping quickReg">
+                    <span>手机快速注册</span>
+                </a>
+            </div>
+            <div class="login-type">
+                <div class="quick-login" >
+                    <h4 class="txt-otherLogin">其他登录方式</h4>
+                    <a href="javascript:;" class="J_ping quick-qq">
+                        <i class="icon icon-mlogin icon-qq"></i>
+                        <br>
+                        <span class="txt-qq">QQ</span>
+                    </a>
+                    <a href="javascript:;" class="J_ping quick-wx">
+                        <i class="icon icon-mlogin icon-wx"></i>
+                        <br>
+                        <span class="txt-wechat">微信</span>
+                    </a>
+                    <a href="javascript:" class="J_ping quick-money" style="display:none">
+                        <i class="icon icon-mlogin icon-money"></i>
+                        <br>
+                        <span class="txt-quickMoney">京东钱包</span>
+                    </a>
+                </div>
+                <div class="agreement-tips">
+                    <p>登录即代表您已同意
+                        <a href="javascript:">京东隐私政策</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/rem(1).js"></script>
+<script src="./js/denglu.js"></script>
+</html>

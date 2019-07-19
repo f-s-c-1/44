@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="./js/rem(1).js"></script>
+    <style>
+        body {
+            background: rgb(247, 247, 247);
+        }
+
+        .head {
+            width: 100%;
+            background: white;
+            height: 0.45rem;
+            z-index: 200;
+            position: sticky;
+            top: 0px;
+            z-index: 200;
+        }
+
+        .head-left-min,
+        .head-left-min2 {
+            padding: 0.05rem;
+            width: 0.2rem;
+            height: 0.2rem;
+            border-radius: 20px;
+            margin: 0.07rem 0.07rem 0 0.05rem;
+        }
+
+        .head-left-min span {
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzRCQTEyN0IzOTcwMTFFODk1OEZCOEVCMEE2QUU1NkUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzRCQTEyN0MzOTcwMTFFODk1OEZCOEVCMEE2QUU1NkUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NEJBMTI3OTM5NzAxMUU4OTU4RkI4RUIwQTZBRTU2RSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NEJBMTI3QTM5NzAxMUU4OTU4RkI4RUIwQTZBRTU2RSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PulQWg8AAAF/SURBVHja7Ni9SsRAEAfwnd1wldiIlqK1td4LiL7CFQaFCHZWgmVqH+GK4FejryA+gPcA9vZ2YnVkd5yAcBLOYJKZ3UWyRbIchPsxSzb/HUBEFfPQKvIxAP89MGn7wPHpuTLOtXoGMdl1WF4rUBug9cX25tpdnufRVHBssXxGhTu0Y6yjs1P6bRTLEo9Lp56ohquLasKcbk5sifvgAMBRRc5oWoau4FIcfRJOaPoQ+i1uwt2H3mZYcdxAdhwnUATHBRTDcQBFcX2B4rg+QC+4rsA9X7gunzpQ1j7S3QuudQWz7HKFjjBbNXNR4QhaYcMCi+LqkwxvtbSX0SWNJVGjAZhQ1T4W8Qk11e2GpkexRP5ZotVBHUmXWwlk122mCZnGAPwV+b3caQxAL0iOsCCK5IpbYkjOwCqC5I787EiJQxMrUurY2YScxNI8Woq0qKZtUpR062NmQB/+RALgqM3/+mgevRhI9imMvVIcewdtqtbH/M8BdOhRD8DA40uAAQDL2thNJDxLvAAAAABJRU5ErkJggg==) no-repeat 50%;
+            background-position: 0 0;
+            background-size: contain;
+            display: block;
+            width: 0.2rem;
+            height: 0.2rem;
+        }
+
+        .head-left-min2 {
+            float: right;
+        }
+
+        .head-left-min2 span {
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAMCAYAAAG2I8urAAAAAXNSR0IArs4c6QAAAddJREFUSA3VVr1OwzAQto0oqgQPABszD4BY4TVIfwR0aBgQb8ALIAbSoVD1J7wGrFRiAokVsbGwMSAVCXPn4PSSxklMGol6SM539913/jnbjEFzGu0j/GOTUvJACr5Owx0L5SBZVxtqDffbqbel7gNqG6K441ABglN3PyJ9YBHKk2qZXNVdzcJVJAwJzR92IvmgjlLH7RSrBhNPAwPohs508FqPf5wIjQVhOtg0xrgNA1GsQIW5yZ7ZFrVwTA+XIaLm/M4feHsRXUKnDOzSy+s7Lnclxrf59PhwFtPNdMvACn/orTGYEcpWXals0L5JLgOrtnGwx/k54+x51L/c4ZxPq8iUza9+3liss1vY57uUdzTwRJ6kysDi6RBJBhOrNY/vaYJGuQRscrlKtmVMIstQEJucEJenWbxGe0GsmKkodQZ1royExFAGVlVZq3Wy/jn5uknaT4ofkqxWlve73Ys3kk9hcRF4oerhtieXeeqoOWv5g3yrmRoHjIvCC6cQnM95m41vVkybWDa+c+YVeHllxQztNr4hyCDYxLLxNdCFaptY4CvwZo8/PcJgVIBzSPlSXQF5UXjDF716iTbdQ8b4AZxJwb2qZlv2Rn3vOs9L5C/z9d95fwDELzC7i+rQHQAAAABJRU5ErkJggg==) no-repeat 50%;
+            background-size: 100% 20%;
+            display: block;
+            width: 0.2rem;
+            height: 0.2rem;
+        }
+
+        .head-min {
+            width: 2.8rem;
+            height: 0.44rem;
+            line-height: 0.44rem;
+            text-align: center;
+            float: left;
+            font-size: 18px;
+            color: black;
+        }
+
+        .ww-img {
+            width: 100%;
+        }
+
+        .ww-img>img {
+            width: 100%;
+        }
+        .main>li{
+            width: 100%;
+            height: 1.56rem;
+            margin-top: 0.1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- head -->
+    <div class="head">
+        <div class="head-left-min" style="float: left">
+            <span></span>
+        </div>
+        <div class="head-min">购物车</div>
+        <div class="head-left-min2">
+            <span></span>
+        </div>
+    </div>
+    <!-- 截图 -->
+    <div class="ww-img">
+        <img src="./img/8.png" alt="">
+    </div>
+    <!-- 主 -->
+    <div class="main">
+        <li>
+            <div class="dan">
+                <input type="checkbox" name="" id="">
+            </div>
+        </li>
+    </div>
+    <!-- 截图 -->
+    <div class="ww-img">
+        <img src="./img/9.png" alt="">
+    </div>
+    <div class="ww-img">
+        <img src="./img/10.png" alt="">
+    </div>
+    <div class="ww-img">
+        <img src="./img/11.png" alt="">
+    </div>
+
+</body>
+<script src="./js/jquery.js"></script>
+<script>
+    function getUrlParams(name) {
+        var re = new RegExp('(^|&)' + name + '=([^&]*)(&|$)')
+        var r = window.location.search.substr(1).match(re)
+        if (r == null) {
+            return;
+        } else {
+            return r[2];
+        }
+    }
+    if (getUrlParams('user')) {
+        $('.ww-img').eq(0).hide()
+        var obj = JSON.parse(localStorage.getItem(getUrlParams('user')))
+    } else {
+        if (localStorage.getItem('nimin')) {
+            $('.ww-img>img').eq(0).attr('src', './img/12.png')
+            var obj = JSON.parse(localStorage.getItem('nimin'))
+            console.log(obj)
+
+        } else {
+            $('.ww-img').eq(0).show()
+        }
+
+    }
+    $('.head-left-min').click(function () {
+        history.back(-1)
+    })
+</script>
+
+</html>
