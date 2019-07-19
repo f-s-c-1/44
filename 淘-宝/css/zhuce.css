@@ -1,0 +1,317 @@
+.page{
+    color: #3c3c3c;
+    font: 400 12px/1.6 arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+    width: 1190px;
+    margin: 0 auto;
+   
+}
+.zhue-had{
+    height: 43px;
+    padding: 20px 0;
+}
+.zhue-had h2{
+    float: left;
+    height: 43px;
+    line-height: 43px;
+    margin-left: 6px;
+    font-size: 22px;
+    font-family: "\5FAE\8F6F\96C5\9ED1","\534E\6587\7EC6\9ED1","\9ED1\4F53",arial;
+    font-weight: 400;
+  
+}
+.step{
+    height: 46px;
+    border-bottom: 2px solid #e6e6e6;
+    position: relative;
+}
+.step>ul{
+    margin: auto;
+    width: 720px;
+}
+.step>ul>li{
+    width: 150px;
+    padding-left: 30px;
+    float: left;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.step>ul>li .active{
+    color: #3e3e3e;
+    border-bottom: 2px solid #ff4700;
+}
+.step>ul>li>i{
+    display: inline-block;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    font-style: normal;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    border-radius: 50%;
+    background: rgb(204, 204, 204)
+   
+}
+.step>ul>li>span{
+    font-weight: 700;
+    font-size: 16px;
+}
+.step>ul .active i{
+    background: rgb(255, 64, 0)
+}
+.tsl-switcher{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    font-size: 12px;
+}
+.tsl-switcher>a{
+    padding: 3px 5px;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #FFF;
+}
+.tsl-switcher>a:hover{
+    color: #ff4700;
+    text-decoration: underline;
+}
+.content{
+    padding: 50px 0;
+}
+.shezhiyonghu{
+    display: block;
+}
+.shezhiyonghu>div{
+    width: 720px;
+    padding: 10px 0 10px 260px;
+}
+.shezhiyonghu,.tianxiexinxi{
+    width: 720px;
+    margin: auto;
+}
+.tianxiexinxi{
+    display: none;
+}
+.ji{
+    float: left;
+    margin-left: -260px;
+    width: 240px;
+    height: 37px;
+    line-height: 37px;
+    text-align: right;
+    font-size: 16px;
+}
+.shezhiyonghu select{
+    width: 162px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: 0;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    padding-left: 10px;
+    height: 35px;
+    font-weight: 900;
+}
+.shezhiyonghu select option:hover{
+    background: #ff4700;
+}
+.shezhiyonghu input{
+    width: 140px;
+    float: left;
+    border: 1px solid #dedede;
+    height: 15px;
+    line-height: 17px;
+    padding: 9px;
+    font-size: 14px;
+}
+.miss{
+    color: #ff4700;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: none;
+    line-height: 32px;
+}
+.shezhiyonghu input:focus{
+    border-color: #229bf9;
+}
+.yanzheng-div{
+    float: left;
+    width: 300px;
+    height: 34px;
+    background: #e8e8e8;
+    position: relative;
+}
+.yanz-bg{
+    position: absolute;
+    left: 0px;
+    background: -webkit-gradient(linear,left top,right top,color-stop(0,#4d4d4d),color-stop(.4,#4d4d4d),color-stop(.5,#fff),color-stop(.6,#4d4d4d),color-stop(1,#4d4d4d));
+    -webkit-background-clip: text;
+    text-align: center;
+    animation: slidetounlock 3s infinite;
+    width: 300px;
+    height: 34px;
+    display: block;
+    color: transparent;
+    line-height: 32px;
+    font-size: 16px;
+    z-index:2;
+ }
+@keyframes slidetounlock{
+    0% {
+        background-position: -200px 0;
+    }
+    100% {
+        background-position: 200px 0;
+    }
+}
+.yanzheng-green{
+    position: absolute;
+    height: 100%;
+    background: #7ac23c;
+    left: 0px;
+    width: 0px;
+}
+.yanzheng-cro{
+    color: #737383;
+    text-align: center;
+    width: 40px;
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #ccc;
+    position: absolute;
+    cursor: move;
+    background: #fff;
+    z-index: 3;
+    left: 0px;
+}
+.xiayibu{
+    width: 180px;
+    background-color: #ededed;
+    border-color: #ededed;
+    color: #999;
+    cursor: default;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    /* background: #ff4001; */
+    border: 0;
+    border-radius: 3px;
+    margin-left: 261px;
+    margin-top: 16px;
+}
+.xiayibu:hover{
+    color: white;
+}
+.footer{
+    padding: 7px 0 9px;
+    border-top: 1px solid #ddd;
+    width: 1190px;
+    margin: 0 auto;
+}
+.footer1{
+    margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #DDD;
+}
+.footer span{
+    margin: 0 4px;
+    white-space: nowrap;
+    color: #6C6C6C;
+    font-size: 12px;
+    cursor: pointer;
+}
+.footer span:hover{
+    color: coral;
+}
+.footer b{
+    margin: 0 3px;
+    font-weight: 400;
+    color: #DDD;
+}
+.footer em{
+    margin: 0 3px;
+    font-weight: 400;
+    color: #9C9C9C;
+}
+.phone-yan{
+    width: 680px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #3e3e3e;
+    border: 2px solid #dedede;
+    border-top: 2px solid #ff4a00;
+    background-color: #FFF;
+    position: absolute;
+    display: none;
+    left:50%;
+    margin-left: -350px;
+    top: 217px;
+    z-index:30;
+}
+.phone-yan h3{
+    font-size: 16px;
+}
+.phone-yan .clo{
+    float:right;
+    color: #DDD;
+    font-weight: normal;
+}
+.phone-yan h4{
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.4;
+    color: #3e3e3e;
+    opacity: .5;
+}
+.form-item{
+    padding: 10px 0 10px 260px;
+    line-height: 36px;
+    font-size: 14px;
+}
+.form-label{
+    float: left;
+    margin-left: -260px;
+    width: 240px;
+    height: 37px;
+    line-height: 37px;
+    text-align: right;
+    font-size: 14px;
+}
+.form-text{
+    border: 1px solid #dedede;
+    width: 82px;
+    height: 17px;
+    line-height: 17px;
+    padding: 9px;
+    font-size: 14px;
+}
+.form-item .btn{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 5px;
+    color: #404040;
+    background-color: #f7f7f7;
+    border: 1px solid #d0d0d0;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+}
+.mimaipt1,.mimaipt2,.mimaipt3{
+    border: 1px solid #dedede;
+    width: 169px;
+    height: 5px;
+    line-height: 17px;
+    padding: 9px;
+    font-size: 14px;
+}

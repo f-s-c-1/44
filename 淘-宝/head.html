@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     
+    <style>
+        body {
+            color: #3C3C3C;
+            font: 12px/1.5 tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #f5f5f5;
+            border-bottom: 1px solid #eee;
+            height: 35px;
+            line-height: 35px;
+        }
+
+        .head-cen {
+            width: 1190px;
+            height: 35px;
+            margin: 0px auto;
+            background: #f5f5f5;
+        }
+
+        .head-cen li:hover {
+            color: #F40;
+            cursor: pointer;
+        }
+
+        .head-left {
+            float: left;
+        }
+
+        .head-left li {
+            float: left;
+            padding: 0 6px;
+        }
+
+        .head-right {
+            float: right;
+        }
+
+        .head-right li {
+            float: left;
+            padding: 0 6px;
+            position: relative;
+        }
+
+        .head-white:hover {
+            background: white;
+        }
+
+        .head-white:hover .bianse {
+            color: #F40;
+        }
+
+        .head-white:hover .head-black {
+            display: block;
+        }
+
+        .head-black {
+            position: absolute;
+            top: 35px;
+            background: white;
+            display: none;
+            color: #6C6C6C;
+            z-index: 80;     
+            width: 100%;
+            left: 0px;
+            border-left: 1px solid rgba(245,245,245,.8);
+            border-right: 1px solid rgba(245,245,245,.8);
+            border-bottom: 1px solid rgba(245,245,245,.8);
+        }
+        .head-black p{
+            padding: 0px;
+            margin: 0px;
+            font-size: 12px;
+            line-height: 23px;
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head-cen">
+            <div class="head-left">
+                <li>中国大陆<span class="iconfont" style="font-size: 12px">&#xe503</span></li>
+                <li style="color: #f22e00"><a href="./denglu.html"> 亲，请登录</a></li>
+                <li><a href="./zhuce.html">免费注册</a> </li>
+                <li>手机逛淘宝</li>
+            </div>
+            <div class="head-right">
+                <li style="color: #f22e00" class="head-white">我的淘宝<span class="iconfont"
+                        style="font-size: 12px">&#xe503</span>
+                    <div class="head-black">
+                        <p>已买到的宝贝</p>
+                        <p>我的足迹</p>
+                    </div>
+                </li>
+                <li class="gwca"><span class="iconfont  icon-gouwuche " style="font-size: 20px;color: #f40"></span class="gwca">购物车</li>
+                <li class="head-white"><span class="iconfont bianse" style="font-size: 14px">&#xe502</span> 收藏夹
+                    <span class="iconfont" style="font-size: 12px">&#xe503</span>
+                    <div class="head-black">
+                        <p>收藏的宝贝</p>
+                        <p>收藏的店铺</p>
+                    </div>
+                </li>
+                <li>商品分类</li>
+                <li>|</li>
+                <li class="head-white">千牛卖家中心
+                    <span class="iconfont" style="font-size: 12px">&#xe503</span>
+                    <div class="head-black">
+                        <p>免费开店</p>
+                        <p>已卖出的宝贝</p>
+                        <p>出售中的宝贝</p>
+                        <p>卖家服务市场的宝贝</p>
+                        <p>已买到的宝贝</p>
+                        <p>我的足迹</p>
+                    </div>
+                </li>
+                <li class="head-white">联系客服<span class="iconfont" style="font-size: 12px">&#xe503</span>
+                    <div class="head-black">
+                        <p>消费者客服</p>
+                        <p>卖家客服</p>
+                    </div>
+                </li>
+                <li class="head-white">网址导航<span class="iconfont" style="font-size: 12px">&#xe503</span></li>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./js/jquery.js"></script>
+<script>
+$('.gwca').click(function(){
+    window.open('./gouwuche.html?&name=' + $(this).attr('name'))
+})
+
+</script>
+
+</html>

@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    height: 0;
+    list-style: none;
+}
+.zhuc_header{
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+    line-height: 50px;
+    font-size: 30px;
+}
+.step{
+    width: 1200px;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+.step li{
+    padding: 0 20px  0 50px ;
+    height: 50px;
+    line-height: 50px;
+}
+.step li span{
+    font-weight: 700;
+}
+.step i{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    font-style: normal;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: rgb(204, 204, 204);
+    vertical-align: middle;
+}
+.header_num{
+    background: rgb(255, 64, 0) !important;
+}
+.content,.contenr1,.contenr2{
+    width: 720px;
+    height: auto;
+    margin: auto;
+    padding:  50px 0;
+}
+.contenr2{
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+.content li{
+    width: 100%;
+    height: 57px;
+    line-height: 35px;
+    overflow: hidden;
+}
+.name1{
+    width: 270px;
+    height: 57px;
+    display: inline-block;
+    text-align: right;
+    line-height: 57px;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.content_right{
+    height: 55px;
+    display: inline-block;
+    padding: 10px 0;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 37px;
+    
+}
+select,input{
+    width: 132px;
+    height: 35px;
+    display: inline-block;
+    float: left;
+    border: none;
+    
+}
+#input—shouji{
+    width: 162px;
+    border-left: 1px solid gainsboro;
+    padding: 9px;
+    box-sizing: border-box;
+}
+.co_1{
+    height: 35px;
+    
+    border: 1px solid #dedede;
+}
+
+.hdong{
+    width: 300px;
+    height: 34px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background: gainsboro;
+}
+.anniu{
+    width: 50px;
+    height: 34px;
+    background: whitesmoke;
+    text-align: center;
+    position: absolute;
+    top: 0
+}
+.lukuai{
+    position: absolute;
+    background: yellow;
+    top: 0;
+    height: 35px;
+}
+.xiayibu{
+    width: 144px;
+    height: 34px;
+   margin:10px auto 0;
+   text-align: center;
+   line-height: 34px;
+   background: gainsboro;
+}
+.tishi{
+    width: 200px;
+    position: absolute;
+    right: -200px;
+    height: 25px;
+    top: 10px;
+    font-size: 12px;
+    color: red;
+    display: none;
+    text-align: left;
+}
+
+.yzm{
+    width: 600px;
+    height:300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -300px;
+    background: goldenrod;
+    display: none;
+}
+.yzm p,.yzm span{
+    padding-left: 20px;
+    height: 30px;
+}
+.form-item{
+    padding: 10px 0 0px 260px;
+    line-height: 36px;
+    font-size: 14px;
+    height: 50px;
+}
+.form-label{
+    float: left;
+    margin-left: -260px;
+    width: 240px;
+    height: 37px;
+    line-height: 37px;
+    text-align: right;
+    font-size: 14px;
+}
+.form-text{
+    border: 1px solid #dedede;
+    width: 82px;
+    height: 17px;
+    line-height: 17px;
+    padding: 9px;
+    font-size: 14px;
+}
+.form-item .btn{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 5px;
+    color: #404040;
+    background-color: #f7f7f7;
+    border: 1px solid #d0d0d0;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+}
+.duanren{
+    width: 100px;
+    height: 36px;
+    background: rgb(255, 64, 0);
+    margin:50px auto 0;
+    text-align: center;
+    line-height: 36px;
+    color: white;
+}
+.mianfei{
+    margin-left: 10px;
+}
+.inut_1{
+    width: 200px;
+    height: 30px;
+}
+.inut_1{
+    border: 1px solid rgb(222, 222, 222);
+}
+.footer{
+    position: relative;
+    margin: 60px auto 0;
+    padding: 7px 0 9px;
+    border-top: 1px solid #ddd;
+    width: 1200px;
+    height: 150px;
+}
+.footer-bd{
+    height: 52px;
+}
+.footer_hd{
+    margin-bottom: 8px;
+    line-height: 27px;
+    font-size: 13px;
+    color: #9c9c9c;
+    height: 27px;
+    border-bottom: 1px solid #ddd;
+    
+}
+.footer a{
+    margin: 0 4px;
+    color: #6c6c6c;
+}
+.footer-bd em,.footer-bd span,.footer-bd b,.footer a{
+    font-size: 13px;
+    white-space: nowrap;
+    display: inline;
+    white-space: nowrap;
+    color: #9c9c9c;
+}
+.footer-bd b{
+    padding: 0 5px;
+}
